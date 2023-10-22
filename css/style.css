@@ -1,0 +1,208 @@
+
+@font-face {
+    font-family:'Signika', sans-serif ;
+    src: url(../fuente/Signika_Negative);
+    font-weight: bold;
+    font-size: bold;
+}
+@font-face {
+    font-family: 'Signika', sans-serif;
+    src: url(../fuente/Signika_Negative);
+    font-weight:normal;
+    font-size: normal;
+}
+body{
+    background-color: #F7F3E8;
+}
+.n{
+    text-align: justify;
+}
+.img-index{
+    border-radius: 20px;
+}
+
+
+img.pequeña{
+    width: 60px;
+    height: 60px;
+}
+
+img.pagina_principal{
+    width: 100px; 
+    height: 100px;
+}
+.img-gift{
+    width: 200px;
+    height: 200px;
+}
+
+.backgroun_barra{
+    background-color: #354D52;
+}
+.parrafo_foteer{
+    color:aliceblue;
+}
+
+.icono_user{
+    width: 35px;
+    height: 35px; 
+}
+
+.seccion-musica{
+    background-color: #94A6A6;
+}
+.btn-seleccion{
+    background-color: #2f4549;
+    color:white;
+    
+}
+.btn-seleccion:hover{
+    background-color:#FFFCF5;
+    color: #000E14;
+}
+.video{
+    border-radius: 20px;
+}
+/* Codigo para centrar contenido a la derecha */
+
+.right-secction{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.p-txt{
+    font-family:'Signika', sans-serif ;
+    src: url(../fuente/Signika_Negative);
+}
+
+/*seccion de ingreso */
+.wrapper{
+    /*background-color: #EEEEEE;*/
+    padding: 0 20px 0 20px;
+}
+.main-ingreso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.row-ingreso{
+    width: 900px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px;
+    background-color: #EEEEEE;
+}
+.side-image{
+    background-image: url(../img/fondo-ingreso1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 0px;
+}
+.img-ingreso{
+    width: 35px;
+    position: absolute;
+    top: 30px;
+}
+.text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-family:'Signika', sans-serif ;
+    src: url(../fuente/Signika_Negative);
+    font-weight: bold;
+    font-size: bold;
+}
+.text p{
+    color:2E3240;
+    font-size: 30px;
+    font-family:'Signika', sans-serif ;
+    src: url(../fuente/Signika_Negative);
+    font-weight: bold;
+    font-size: bold;
+}
+i{
+    font-weight: 400px;
+    font-size: 15px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.input-box{
+    font-family:'Signika', sans-serif ;
+    src: url(../fuente/Signika_Negative);
+    font-weight: bold;
+    font-size: bold;
+    font-weight: 400;
+    font-size: 15px;
+}
+.right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.input-box{
+    width: 330px;
+    box-sizing: border-box;
+}
+.input-box header{
+    font-family:'Signika', sans-serif ;
+    src: url(../fuente/Signika_Negative);
+    font-weight: bold;
+    font-size: bold;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10px 0 10px;
+}
+.input{
+    height: 45px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #2f4549;
+    outline: none;
+    margin:none;
+    margin-bottom: 20px;
+    color: #354D52;
+}
+
+.submit{
+    border: none;
+    outline:none;
+    height: 45px;
+    background: #2f4549;
+    color: #F7F3E8;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.submit:hover{
+    background: #F7F3E8;
+    color:#000E14
+}
+
+.olvidar{
+    text-decoration: none;
+    text-decoration: 700;
+    color: #000E14;
+    transition: .5s;;
+}
+span a:hover{
+    text-decoration: underline;
+    color:#000E14;
+}

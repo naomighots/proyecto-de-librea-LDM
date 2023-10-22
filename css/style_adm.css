@@ -1,0 +1,70 @@
+
+* {
+    font-family: Arial, sans-serif;
+    
+    
+}
+
+body {
+    background-color: #4C525D;
+}
+
+.backgroun_barra {
+    background-color: #012E40;
+}
+
+.nav-item {
+    text-decoration-color: #F2E3D5;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #024959;
+}
+
+.formulario label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type = "categoria"],
+.formulario input[type = "cantidad"]
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+.btn-seleccion {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #012E40;
+    border: none;
+    cursor: pointer;
+    outline:none;
+    height: 45px;
+    color: #F7F3E8;
+    border-radius: 5px;
+    transition: .4s;
+}
+.btn-visitar{
+    padding: 10pc;
+}
+
+
+
+
+
+
+
+
+
